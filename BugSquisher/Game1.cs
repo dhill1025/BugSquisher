@@ -18,6 +18,8 @@ namespace BugSquisher
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Texture2D background, spritesheet;
+        Sprite bug1, bug2, bug3, bug4, bug5, bug6;
 
         public Game1()
         {
@@ -82,6 +84,10 @@ namespace BugSquisher
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+            spriteBatch.Begin();
+
+            Sprite.Draw(
+            
 
             // TODO: Add your drawing code here
 
